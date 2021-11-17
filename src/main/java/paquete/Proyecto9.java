@@ -13,6 +13,7 @@ public class Proyecto9 {
 		byte nMujeres = 0;
 		char genero = 0;
 		int horasSumadas = 0;
+		int diasSumados = 0;
 		
 		do {
 			System.out.println("Introduce cuántas personas quieres registrar. (Puedes registrar entre 2 y 10)");
@@ -54,6 +55,7 @@ public class Proyecto9 {
 				int horas = (edad * 365)*24;
 				System.out.println("Tambien podemos decir que ha vivido un total de " +edad+ " años por lo cual a vivido " + dias + " dias y un total de " + horas + " horas." );
 				horasSumadas += horas;
+				diasSumados += dias;
 				
 				
 
@@ -63,6 +65,7 @@ public class Proyecto9 {
 		System.out.println("La altura media seria de " + (alturasSumadas/nPersonas)*100 + " centímetros.");
 		System.out.println("El nombre mas largo es " + nombreLargo);
 		System.out.println("Hay un total de " + nHombres + " hombres y de " + nMujeres + " mujeres.");
+		System.out.println("Los dias promedios vividos es de " + diasSumados + " dias.2");
 		System.out.println("Las horas promedias vividas es de " + horasSumadas + " horas.");
 	}
 	
